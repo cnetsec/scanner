@@ -1,7 +1,11 @@
 1)Executar:
 python3 scan.py
 
-2)Verificar output de Relatório
+2)Adicionar a Subnet por exemplo :192.168.0.0/24
+
+3)Adicionar porta de origem e porta de destino.
+
+4)Verificar output de Relatório
 ls 
 cat Relatório-------
 
