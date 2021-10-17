@@ -1,15 +1,20 @@
+1)Executar:
 python3 scan.py
+-------------------------------------------------
 SCANNER
 .......................
-Adicione o Range de Rede?  192.168.0.1/32
-O Range é iniciado na porta?  79
-Até a Porta?  81
-Digite o nome da empresa:  EmpresaXYZ
+2)Adicione o Range de Rede?  192.168.0.1/32
+2.1)O Range é iniciado na porta?  79
+2.2)Até a Porta?  81
+2.3)Digite o nome da empresa:  EmpresaXYZ
 --------------------------------------------------
 Scan Alvo:  192.168.0.1/32
 --------------------------------------------------
-Relatório-EmpresaXYZ-17-10-2021  Relatório-Teste-17-10-2021
+2.4)Relatório-EmpresaXYZ-17-10-2021  Relatório-Teste-17-10-2021
+
+3)Verificar Relatório
 cat Relatório-EmpresaXYZ-17-10-2021
+
 Iniciado em :2021-10-17 02:46:57.120806
 Scan para o Server: 192.168.0.1
 Port 80 está aberta
