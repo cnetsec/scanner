@@ -30,7 +30,6 @@ for x in iprangenetwork.hosts():
     for port in range(beginport,finalport):
         socket.setdefaulttimeout(2)
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        socket.setdefaulttimeout(1)
         result = s.connect_ex((strtarget,port))
         if result ==0:
             print("Port {} está aberta".format(port))
