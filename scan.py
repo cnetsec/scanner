@@ -34,6 +34,8 @@ for x in iprangenetwork.hosts():
         if result ==0:
             print("Port {} está aberta".format(port))
             s.close()
-        
+        else:
+            s.close()
+
 print("Finalizado em :" + str(datetime.now()))
 sys.stdout.close()
